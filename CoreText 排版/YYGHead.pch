@@ -1,0 +1,15 @@
+//
+//  YYGHead.pch
+//  CoreText 排版
+//
+//  Created by 区块国际－yin on 16/8/3.
+//  Copyright © 2016年 区块国际－yin. All rights reserved.
+//
+
+#ifndef YYGHead_pch
+#define YYGHead_pch
+
+#define RGB(A, B, C)    [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+#import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
+#endif /* YYGHead_pch */
