@@ -18,6 +18,7 @@
 		D312F8791D51F60100B5D8CD /* YYGFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D312F8781D51F60100B5D8CD /* YYGFrameParserConfig.m */; };
 		D312F87D1D520C5500B5D8CD /* YYGFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D312F87C1D520C5500B5D8CD /* YYGFrameParser.m */; };
 		D312F8801D520F4800B5D8CD /* YYGCoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = D312F87F1D520F4800B5D8CD /* YYGCoreTextData.m */; };
+		D312F8831D53203900B5D8CD /* YYGDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D312F8821D53203900B5D8CD /* YYGDisplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		D312F87C1D520C5500B5D8CD /* YYGFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGFrameParser.m; sourceTree = "<group>"; };
 		D312F87E1D520F4800B5D8CD /* YYGCoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGCoreTextData.h; sourceTree = "<group>"; };
 		D312F87F1D520F4800B5D8CD /* YYGCoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGCoreTextData.m; sourceTree = "<group>"; };
+		D312F8811D53203900B5D8CD /* YYGDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGDisplayView.h; sourceTree = "<group>"; };
+		D312F8821D53203900B5D8CD /* YYGDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGDisplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 			children = (
 				D312F86F1D51CD3500B5D8CD /* YYGCoreTextView.h */,
 				D312F8701D51CD3500B5D8CD /* YYGCoreTextView.m */,
+				D312F8811D53203900B5D8CD /* YYGDisplayView.h */,
+				D312F8821D53203900B5D8CD /* YYGDisplayView.m */,
 			);
 			path = YYGCoreTextView;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				D312F8801D520F4800B5D8CD /* YYGCoreTextData.m in Sources */,
 				D312F8711D51CD3500B5D8CD /* YYGCoreTextView.m in Sources */,
 				D312F8581D51CCCC00B5D8CD /* main.m in Sources */,
+				D312F8831D53203900B5D8CD /* YYGDisplayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +366,7 @@
 				D312F86C1D51CCCC00B5D8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

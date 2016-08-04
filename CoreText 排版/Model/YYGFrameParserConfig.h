@@ -11,6 +11,9 @@
 
 @interface YYGFrameParserConfig : NSObject
 
+/**
+ *  view显示的宽度
+ */
 @property(nonatomic, assign) CGFloat width;
 
 /**

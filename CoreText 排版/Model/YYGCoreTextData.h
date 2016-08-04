@@ -12,10 +12,13 @@
 @interface YYGCoreTextData : NSObject
 
 /**
- *  存储生产的
+ *  存储生产的CTFrameRef
  */
 @property(assign,nonatomic) CTFrameRef ctFram;
 
+/**
+ *  动态生成的高度
+ */
 @property(assign,nonatomic) CGFloat height;
 
 @end
